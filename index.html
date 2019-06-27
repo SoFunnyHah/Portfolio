@@ -76,7 +76,7 @@
 	      
 	</div>
 	<div class="name name_pos_ab name_screen_460 wow fadeInLeft">
-		<span><</span><code>Artem Karpukhov</code><span>/></span>
+		<span>&lt;</span><code>Artem Karpukhov</code><span>/&gt</span>
 	</div>
 	<div class="social social_pos_ab">
 		<div class="social__item slideInDown wow" data-wow-delay="0.2s">
@@ -250,18 +250,18 @@
 <div class="contacts" id="contacts">
 	<h2 class="section-title wow fadeInUp">Контакты</h2>
 	<p class="section-subtitle wow fadeInUp">связаться со мной</p>
-	<form id="myform" method="POST"action="mail.php" onsubmit="return validateForm()" class="form">
+	<form id="myform" method="POST" action="mail.php" onsubmit="return validateForm()" class="form">
 		<div class="form__row">
-			<input type="text" name="name" class="form__control" required>
+			<input id="name" type="text" name="name" class="form__control" required>
 			<label for="name" class="form__label">Ваше имя</label>	
 		</div>
 		<div class="form__row">
-			<input type="email" name="email" class="form__control" required>
+			<input id="email" type="email" name="email" class="form__control" required>
 			<label for="email" class="form__label">Ваш Email</label>	
 		</div>
 		<div class="form__row form__row_type_area">
 			<label for="message" class="form__label">Ваше сообщение</label>
-			<textarea name="message" cols="30" rows="10" maxlength="400" class="form__control form__text" required></textarea>	
+			<textarea id="message" name="message" cols="30" rows="10" maxlength="400" class="form__control form__text" required></textarea>	
 		</div>
 		<a class="form__btn" onclick="validateForm()">Отправить</a>
 		<div class="status" id="status"></div>
