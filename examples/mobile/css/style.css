@@ -1,0 +1,24 @@
+html,
+body,
+header,
+#intro{
+	height: 100%;
+}
+#intro {
+	background: url(../img/logo.jpeg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.top-nav-collapse{
+	background-color: #24355C;
+}
+@media (max-width: 768px) {
+	.navbar:not(.top-nav-collapse){
+		background-color: #24355C;
+	}
+}
+
+ul>li>a.active {
+	background-color: rgba(255,255,255,0.4);
+}

@@ -1,0 +1,428 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Панель администратора</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body class="grey lighten-3">
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light white scrolling-navbar">
+        <div class="container-fluid">
+          <a href="#" class="navbar-brand waves-effect"><strong class="blue-text">ЛОГОТИП</strong></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expended="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a href="#" class="nav-link waves-effect">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link waves-effect">О нас</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link waves-effect">Новости</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link waves-effect">Контакты</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav nav-flex-items">
+              <li class="nav-item mr-2">
+                <a href="#" class="nav-link border-light rounded waves-effect">
+                  <i class="fa fa-facebook"></i>
+                </a>
+              </li>
+              <li class="nav-item mr-2">
+                <a href="q" class="nav-link border-light rounded waves-effect">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </li>
+              <li class="nav-item mr-2">
+                <a href="q" class="nav-link border-light rounded waves-effect">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="sidebar-fixed position-fixed">
+        <a href="#" class="logo-wrapper waves-effect">
+          
+        </a>
+        <div class="list-group list-group-flush">
+          <a href="#" class="list-group-item active waves-effect">
+            <i class="fa fa-pie-chart mr-3"></i>Показатели
+          </a>
+          <a href="#" class="list-group-item waves-effect">
+            <i class="fa fa-user mr-3"></i>Профиль
+          </a>
+          <a href="#" class="list-group-item waves-effect">
+            <i class="fa fa-table mr-3"></i>Таблицы
+          </a>
+          <a href="#" class="list-group-item waves-effect">
+            <i class="fa fa-map mr-3"></i>Карты
+          </a>
+          <a href="#" class="list-group-item waves-effect">
+            <i class="fa fa-money mr-3"></i>Заказы
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="pt-5 max-lg-5">
+      <div class="container-fluid mt-5">
+        <div class="card mb-4 wow fadeIn">
+          <div class="card-body d-sm-flex justify-content-between">
+            <h4 class="mb-2 mb-sm-0 pt-1">
+              <a href="#">Главная</a>
+              <span> / </span>
+              <span>Показатели</span>
+            </h4>
+            <form class="d-flex justify-content-center">
+              <input type="search" class="form-control" placeholder="Ваш запрос">
+              <button class="btn btn-primary btn-sm my-0 p" type="submit">
+                <i class="fa fa-search"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="row wow fadeIn">
+        <div class="col-md-9 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <canvas id="myChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card mb-2">
+            <div class="card-header">Пирог</div>
+            <div class="card-body">
+              <canvas id="pieChart"></canvas>
+            </div>
+          </div>
+          <div class="card mt-4 mb-4">
+            <div class="card-body">
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                  Продажи №1
+                  <span class="badge badge-success badge-pill pull-right">23%<i class="fa fa-arrow-up ml-1"></i></span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                  Продажи №2
+                  <span class="badge badge-success badge-pill pull-right">5%<i class="fa fa-arrow-up ml-1"></i></span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                  Продажи №3
+                  <span class="badge badge-primary badge-pill pull-right">0%<i class="fa fa-arrow-up ml-1"></i></span>
+                </a>
+                <a href="#" class="list-group-item list-group-item-action waves-effect">
+                  Продажи №4
+                  <span class="badge badge-danger badge-pill pull-right">8%<i class="fa fa-arrow-down ml-1"></i></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeIn">
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <table class="table table-hover">
+                <thead class="blue lighten-4">
+                  <tr>
+                    <th>№</th>
+                    <th>lorem1</th>
+                    <th>lorem2</th>
+                    <th>lorem3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <th>Item1</th>
+                    <th>Item2</th>
+                    <th>Item3</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <th>Item1</th>
+                    <th>Item2</th>
+                    <th>Item3</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <th>Item1</th>
+                    <th>Item2</th>
+                    <th>Item3</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card">
+            <div class="card-body">
+              <table class="table table-hover">
+                <thead class="blue-grey lighten-4">
+                  <tr>
+                    <th>№</th>
+                    <th>lorem1</th>
+                    <th>lorem2</th>
+                    <th>lorem3</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <th>Item1</th>
+                    <th>Item2</th>
+                    <th>Item3</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <th>Item1</th>
+                    <th>Item2</th>
+                    <th>Item3</th>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <th>Item1</th>
+                    <th>Item2</th>
+                    <th>Item3</th>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row wow fadeIn">
+        <div class="col-lg-4 col-md-12 mb-4">
+          <div class="card">
+            <div class="card-header">Графики</div>
+            <div class="card-body">
+              <canvas id="LineChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-header">Радар</div>
+            <div class="card-body">
+              <canvas id="radarChart"></canvas>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card">
+            <div class="card-header">Пончик</div>
+            <div class="card-body">
+              <canvas id="doughnutChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+
+      
+    </main>
+    <footer class="page-footer text-center font-small primary-color-dark darken-2 mt-3 wow fadeInLeft">
+      <div class="pt-4">
+        <a href="#" class="btn btn-outline-white">Admin
+          <i class="fa fa-download ml-2"></i></a>
+          <a href="#" class="btn btn-outline-white">Admin
+          <i class="fa fa-graduation-cap ml-2"></i></a>
+      </div>
+      <hr class="my-4">
+      <div class="pb-4">
+        <a href="#"><i class="fa fa-facebook mr-3"></i></a>
+        <a href="#"><i class="fa fa-vk mr-3"></i></a>
+        <a href="#"><i class="fa fa-instagram mr-3"></i></a>
+        <a href="#"><i class="fa fa-youtube mr-3"></i></a>
+        <a href="#"><i class="fa fa-twitter mr-3"></i></a>
+      </div>
+      <div class="footer-copyright py-3">AK  <i class="fa fa-vk"></i></div>    
+    </footer>
+
+
+    
+
+
+
+
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script>
+      var ctx = document.getElementById('myChart').getContext('2d');
+      var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ["Вариант №1","Вариант №2","Вариант №3","Вариант №4","Вариант №5","Вариант №6"],
+          datasets: [{
+            label: 'Кол-во голосов',
+            data: [12,14,13,3,16,5],
+            backgroundColor:[
+            'red',
+            'green',
+            'blue',
+            'yellow',
+            'grey',
+            'red'],
+            borderColor: [
+            'black',
+            'black',
+            'black',
+            'black',
+            'black',
+            'black'],
+            borderWidth: 2
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+              ticks: {
+                beginAtZero: true
+              }
+            }]
+          }
+        }
+      });
+
+
+      var ctxP = document.getElementById('pieChart').getContext('2d');
+      var myPieChart = new Chart(ctxP, {
+        type: 'pie',
+        data: {
+          datasets: [{
+            data: [350,280,320,100,40],
+            backgroundColor:[
+            'red',
+            'green',
+            'blue',
+            'yellow',
+            'black'],
+            hoverBackgroundColor: [
+            'grey',
+            'grey',
+            'grey',
+            'grey',
+            'grey'],
+          }]
+        },
+        options: {
+          responsive: true
+        }
+      });
+
+
+      var ctxL = document.getElementById('LineChart').getContext('2d');
+      var myLineChart = new Chart(ctxL, {
+        type: 'line',
+        data: {
+          labels: ["1","2","3","4","5","6","7"],
+          datasets: [{
+            label: "dataset",
+            fillColor: "black",
+            strokeColor: "red",
+            pointColor: "green",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "yellow",
+            data: [65,58,80,85,55,34,40]
+          },
+          {
+            label: "dataset2",
+            fillColor: "black",
+            strokeColor: "red",
+            pointColor: "green",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "yellow",
+            data: [40,32,40,63,44,12,14]
+          },
+          ]
+        }
+
+      });
+
+
+      var ctxR = document.getElementById('radarChart').getContext('2d');
+      var myRadarChart = new Chart(ctxR, {
+        type: 'radar',
+        data: {
+          labels: ["first","second","third","first","first"],
+          datasets: [
+          {
+            label: "dataset",
+            fillColor: "black",
+            strokeColor: "red",
+            pointColor: "green",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "yellow",
+            data: [65,58,80,85,55,50,40]
+          },
+          {
+            label: "dataset2",
+            fillColor: "black",
+            strokeColor: "red",
+            pointColor: "green",
+            pointStrokeColor: "#fff",
+            pointHighlightFill: "#fff",
+            pointHighlightStroke: "yellow",
+            data: [70,70,70,70,70,70,70]
+          },
+
+          ]
+        }
+      });
+
+
+      var ctxD = document.getElementById('doughnutChart').getContext('2d');
+      var myDoughnutChart = new Chart (ctxD, {
+        type: 'doughnut',
+        data: {
+          labels: ["first","second","third","first","first"],
+          datasets: [{
+            data:[300,50,100,40,120],
+            backgroundColor: ["red","green","blue","yellow","black"],
+            hoverBackgroundColor: ["grey","grey","grey","grey","grey"]
+          }]
+        },
+        options: {
+          responsive: true
+        }
+      });
+    </script>
+</body>
+
+</html>

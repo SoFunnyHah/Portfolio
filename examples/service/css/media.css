@@ -1,0 +1,150 @@
+@media (max-width: 1024px) {
+	.wrapper {
+		padding: 50px 50px;
+	}
+	.about__line {
+		width: 100%;
+	}
+	.nav {
+		padding: 0 40px;
+	}
+	.logo {
+		width: unset;
+	}
+	.menu-visible {
+		display: none;
+	}
+	.m-menu {
+		height: 100%;
+	}
+	.m-menu__link {
+		display: block;
+	}
+	.social-menu {
+		display: none;
+	}
+	.about__text {
+		padding: 0 25px;
+	}
+	.services__desc {
+		width: unset;
+		height: unset;
+	}
+	.services__title {
+		font-size: 23px;
+	}
+	.clients__line {
+		justify-content: center;
+	}
+	.clients__block {
+		padding: 0 19px;
+		width: unset;
+	}
+	.form__input {
+		width: 160px;
+	}
+
+@media (max-width: 460px) {
+	.nav {
+		padding: 0 20px;
+	}
+	.logo {
+		width: unset;
+	}
+	.menu-visible {
+		display: none;
+	}
+	.m-menu__link {
+		display: block;
+	}
+	.social-menu {
+		display: none;
+	}
+	.header__wrap {
+		width: 100%;
+   		text-align: center;
+	}
+	.header__text {
+		width: 100%;
+    	padding: 0 20px;
+	}
+	.about {
+		flex-direction: column;
+	}
+	.about__text {
+		width: 100%;
+		padding: 80px 30px;
+	}
+	.about__line {
+		width: 100%;
+	}
+	.about__img {
+		height: 350px;
+		width: 100%;
+		order: 2;
+	}
+	.services__wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.services__block {
+		height: 350px;
+    margin-bottom: 20px;
+    padding: 20px 0;
+    width: unset;
+	}
+	.clients__line {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.clients__block {
+		margin-bottom: 40px;
+	}
+	.wrapper {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.question__text {
+		width: 100%;
+		padding: 0 20px;
+		text-align: center;
+	}
+	.question__fields {
+		width: 100%;
+		justify-content: center;
+		margin-top: 20px;
+
+	}
+	.form {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+		justify-content: space-between;
+		height: 170px;
+	}
+	.footer__block {
+		width: 100%;
+		padding: 0 10px;
+	}
+}
+@media (max-width: 320px) {
+	.header {
+		height: 100vh;
+	}
+	.logo {
+		width: unset;
+	}
+}

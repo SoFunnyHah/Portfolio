@@ -1,0 +1,47 @@
+#intro {
+	background: linear-gradient(rgba(100,81,246,1), rgba(0,0,0,0.8)),
+	url(https://images.pexels.com/photos/270623/pexels-photo-270623.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260) 0% 0%/cover no-repeat
+}
+#info-3 {
+	background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
+	url(https://images.pexels.com/photos/831084/pexels-photo-831084.jpeg?cs=srgb&dl=animal-animal-photography-blue-water-831084.jpg&fm=jpg) 0% 0%/cover no-repeat
+}
+.fill-weivport {
+	min-height: 100vh;
+}
+.fill-80-weivport {
+	min-height: 80vh;
+}
+.fill-40-weivport {
+	min-height: 40vh;
+}
+.white-text-70 {
+	color: rgba(255,255,255,0.7)
+}
+.black-text-40 {
+	color: rgba(0,0,0,0.4)
+}
+.black-text-70 {
+	color: rgba(0,0,0,0.7)
+}
+@media screen and (min-width: 768px) {
+	.basis-md-50 {
+		flex-basis: 50%
+	}
+}
+.list-border-y li {
+	border-top: 1px solid;
+}
+.list-border-y li:last-child {
+	border-bottom: 1px solid;
+}
+.list-border-black-20 li,
+.list-border-black-20 li:last-child {
+	border-color: rgba(0,0,0,0.2);
+}
+.price {
+	font-size: 100px;
+}
+#copyright {
+	background-color: #151617;
+}

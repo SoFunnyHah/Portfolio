@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>flexbox</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="media.css">
+	<link href="https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<ul class="m-menu">
+		<li class="close-menu">&times;</li>
+		<li><a href="#" class="menu-link">Home</a></li>
+		<li><a href="#" class="menu-link">Why MISOCAL</a></li>
+		<li><a href="#" class="menu-link">Features</a></li>
+		<li><a href="#" class="menu-link">Articles</a></li>
+		<li><a href="#" class="menu-link">Pricing</a></li>
+		<li><a href="#" class="menu-link get-started-btn">Get started</a></li>
+	</ul>
+	<main>
+		<div class="main-overlay"></div>
+		<header>
+			<div class="logo">
+				<img src="img/logo.svg" alt="Logo">
+			</div>
+			<a href="#" class="m-menu-link">
+				<i class="fa fa-bars"></i>
+			</a>
+			<div class="menu visible-lg">
+				<ul>
+					<li><a href="#" class="menu-link">Home</a></li>
+					<li><a href="#" class="menu-link">Why MISOCAL</a></li>
+					<li><a href="#" class="menu-link">Features</a></li>
+					<li><a href="#" class="menu-link">Articles</a></li>
+					<li><a href="#" class="menu-link">Pricing</a></li>
+					<li><a href="#" class="menu-link get-started-btn">Get started</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="main-text">
+			<span>social marketing & analytics</span>
+			<h1>Pricing Table</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, nostrum.</p>
+		</div>
+		<div class="main-arrow">
+			<div class="arrow-down">
+				<img src="img/arrow.png" alt="" width="15" height="15">
+			</div>
+		</div>
+	</main>
+	<div class="table">
+		<div class="table-header">
+			<span>MISOCAL</span>
+			<h2>Select a plan</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis, tempore!</p>
+		</div>
+		<div class="price-tags">
+			<div class="pirce-tag">
+				<img src="img/rocket.svg" alt="rocket" height="100" width="100">
+				<span>Personel</span>
+				<h4><sup>$</sup>0<sub>/month</sub></h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas aliquid temporibus illum, vitae dolores, iste ipsum quod, dolor quae laborum at iusto et inventore ut mollitia consequuntur eius neque expedita?</p>
+				<button class="price-btn">select plan</button>
+			</div>
+			<div class="pirce-tag">
+				<img src="img/rocket1.svg" alt="rocket" height="100" width="100">
+				<span>Premium</span>
+				<h4><sup>$</sup>29<sub>/month</sub></h4>
+				<p>Rerum, debitis illum, eveniet nihil nostrum numquam tenetur architecto distinctio molestiae non mollitia nesciunt sint vel quae dicta quisquam modi accusamus, sit velit. Architecto molestiae doloribus esse veniam dicta eius!</p>
+				<button class="price-btn">select plan</button>
+			</div>
+			<div class="pirce-tag">
+				<img src="img/rocket2.svg" alt="rocket" height="100" width="100">
+				<span>Buisness</span>
+				<h4><sup>$</sup>49<sub>/month</sub></h4>
+				<p>Minus, enim, alias. Aliquid delectus, qui ea minus quo nostrum maiores odio amet at quasi tempora dolores harum omnis unde totam magnam pariatur cupiditate possimus voluptas, in earum ex dignissimos!</p>
+				<button class="price-btn">select plan</button>
+			</div>
+		</div>
+	</div>
+	<div class="call-to-action">
+		<div class="call-to-action-overlay"></div>
+			<div class="wrap">
+				<span>social marketing & analytics</span>
+				<h4>Take control of your data</h4>
+				<button class="cta-btn">get started</button>
+				<button class="cta-btn">explore futures</button>
+			</div>
+	</div>
+	<footer>
+		<div class="footer-wrap">
+			<div class="logo">
+				<img src="img/logo.svg" alt="Logo">
+			</div>
+			<div class="footer-menu">
+				<ul>
+					<li><a href="#" class="footer-menu-link">Home</a></li>
+					<li><a href="#" class="footer-menu-link">Why MISOCAL</a></li>
+					<li><a href="#" class="footer-menu-link">Features</a></li>
+					<li><a href="#" class="footer-menu-link">Articles</a></li>
+					<li><a href="#" class="footer-menu-link">Pricing</a></li>
+					<li><a href="#" class="footer-get-started-btn footer-menu-link">Get started</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<div class="line"></div>
+	<div class="legal">
+		<div class="copy">
+			<p>© 2018 Mass impressions & Tranmautritam. Make the right impression</p>
+		</div>
+		<div class="social-links">
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+			<a href="#"><i class="fa fa-google-plus"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script>
+		$(function() {
+			var link = $('.m-menu-link');
+			var close = $('.close-menu');
+			var menu = $('.m-menu');
+			link.on('click', function(event) {
+				event.preventDefault();
+				menu.toggleClass('m-menu_active');
+			});
+			close.on('click', function(event) {
+				event.preventDefault();
+				menu.toggleClass('m-menu_active');
+			});
+			
+		});
+	</script>
+</body>
+</html>

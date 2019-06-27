@@ -1,0 +1,370 @@
+@media (max-width: 1300px) {
+	.nav {
+		padding: 0 40px;
+	}
+	.text {
+		height: unset;
+	}
+	.header__wrapp {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: flex-start;
+		align-items: flex-start;
+		justify-content: space-around;
+		padding: 0 40px;
+		height: 900px;
+	}
+	.easy-text {
+		margin-bottom: 15px;
+	}
+	
+	.title {
+		width: 300px;
+		margin-top: 40px;
+	}
+	.title__description {
+		width: unset;
+		height: unset;
+	}
+	.count__img {
+		width: 40px;
+		height: 40px;
+	}
+	.count__text {
+		font-size: 15px;
+	}
+	.test-wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.test-wrap__text {
+		padding: 0;
+	}
+	.text-wrap__carousel-wrapper {
+		margin-top: 50px;
+		width: 100%;
+		padding: 0;
+		-ms-align-items: center;
+		width: 100%;
+		display: flex;
+    	justify-content: center;
+	}
+	.text-wrap__carousel-inner {
+		width: 75%;
+	}
+	.menu {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+}
+@media (max-width: 850px) {
+	.nav {
+		padding: 0 20px;
+	}
+	.menu-visible {
+		display: none;
+	}
+	.m-menu__link {
+		display: block;
+	}
+	.m-menu__open {
+		font-size: 40px;
+		margin: 0;
+	}
+	.m-menu__close {
+		right: 35px;
+	}
+	.social-menu {
+		display: none;
+	}
+	.menu {
+		display: none;
+	}
+	.titles {
+		width: 100%;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.block {
+		width: 670px;
+	}
+	.block__bottom {
+		width: 100%;
+		padding: 10px 15px;
+		align-items: center;
+	}
+	.block__text {
+		height: unset;
+	}
+	.count__wrapper {
+		width: 150px;
+	}
+	.test-wrap__text {
+		padding: 0;
+	}
+	.footer__social {
+		width: 40%;
+	}
+	.text-wrap__carousel-inner {
+		width: 100%;
+	}
+}
+@media (max-width: 460px) {
+	.header {
+		height: 100vh;
+	}
+	.menu-visible {
+		display: none;
+	}
+	.m-menu__link {
+		display: block;
+	}
+	.sing-in-btn {
+		font-size: 20px;
+	}
+	.m-menu__open {
+		font-size: 40px;
+		margin: 0;
+	}
+	.social-menu {
+		display: none;
+	}
+	.menu {
+		display: none;
+	}
+	.nav {
+		padding: 0 15px;
+	}
+	.text {
+		width: 100%;
+		padding: 0 20px;
+	}
+	.text__title {
+		width: unset;
+		height: unset;
+		font-size: 40px;
+	}
+	.text__subtitle {
+		width: unset;
+		height: unset;
+		font-size: 15px
+	}
+	.buttons {
+		width: 100%;
+		justify-content: space-between;
+	}
+	.easy-text__description {
+		width: unset;
+		height: unset;
+		margin-top: 10px;
+		padding: 0 20px;
+	}
+	.titles {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+	}
+	.title {
+		margin-bottom: 20px;
+	}
+	.video {
+		display: none;
+	}
+	.counts-wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		width: 100%;
+		height: 100%;
+	}
+	.count {
+		width: 100%;
+		justify-content: flex-start;
+		padding: 10px;
+	}
+	.blocks {
+		width: 100%;
+	}
+	.block {
+		width: 350px;
+	}
+	.block__bottom {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.block__text {
+		width: unset;
+		height: unset;
+		margin: 0;
+		padding: 10px 15px;
+	}
+	.test-wrap__text {
+		width: 100%;
+		padding: 0 10px;
+		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.test-wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.test-wrap__title {
+		width: unset;
+		height: unset;
+		text-align: center;
+	}
+	.test-wrap__subtitle {
+		text-align: center;
+		width: unset;
+		height: unset;
+	}
+	.text-wrap__carousel-wrapper {
+		width: 100%;
+		padding: 0;
+		margin-top: 20px;
+		height: 665px;
+	}
+	.text-wrap__item {
+		width: unset;
+		padding: 0 10px;
+		height: 250px;
+	}
+	.text-wrap__avatar {
+		margin: 0;
+		display: none;
+	}
+	.text-wrap__wrap {
+		height: 250px;
+		padding: 10px 15px;
+	}
+	.text-wrap__arrow {
+		margin-left: -14px;
+	}
+	.our-team__social {
+		width: 100%;
+	}
+	.footer__wrap {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		padding: 50px 100px;
+	}
+	.footer__left {
+		width: 100%;
+	}
+	.footer__right {
+		width: 100%;
+		justify-content: center;
+		-ms-align-items: center;
+		align-items: center;
+	}
+	.footer__social {
+		width: 100%;
+		justify-content: space-between;
+	}
+		.buttons {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		-ms-align-items: center;
+		align-items: center;
+		justify-content: space-between;
+		height: 120px;
+	}
+	.header__wrapp {
+		justify-content: center;
+		padding-bottom: 20px;
+	}
+	.text__subtitle {
+		line-height: 20px
+	}
+}
+
+@media (max-width: 320px) {
+	.text__title {
+		font-size: 38px;
+	}
+	.text {
+		padding: 0;
+	}
+	.header {
+		height: 100%;
+	}
+	.header__wrapp {
+		height: 100%;
+	}
+	.block {
+    	width: 250px;
+	}
+	.title {
+		width: unset;
+	}
+	.title__description {
+		width: unset;
+	}
+	.btn {
+		width: 130px;
+	}
+	.m-menu__link {
+		font-size: 30px;
+	}
+	.m-menu__open {
+		font-size: 30px;
+	}
+	.m-menu__close {
+		right: 15px;
+		font-size: 45px;
+	}
+	.sing-in-btn {
+		font-size: 20px;
+		padding: 3px 20px;
+	}
+	.content {
+		padding: 20px 0;
+	}
+	.our-team__person {
+		width: 100%;
+	}
+	.our-team__social {
+		width: 70%;
+	}
+	.our-team__description {
+		padding: 0 10px;
+	}
+	.footer__wrap {
+		padding: 20px 30px;
+	}
+	.footer__social {
+		margin-top: 10px;
+		width: 50%;
+	}
+}
