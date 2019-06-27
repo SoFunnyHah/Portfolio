@@ -1,0 +1,91 @@
+.circ-btn
+	position: fixed
+	background-color: #f4cb67
+	border-radius: 50%
+	cursor: pointer
+	text-align: center
+	color: #000
+	&_value_up
+		display: none
+		z-index: 100
+		width: 60px
+		height: 60px
+		bottom: 30px
+		right: 50px
+		line-height: 80px
+	&_value_contacnts
+		z-index: 100
+		width: 60px
+		height: 60px
+		bottom: 30px
+		left: 50px
+		line-height: 75px
+		color: #fff
+		background-color: #3cd070
+	&_animation_true
+		animation: my-shake 6s infinite
+	&_social
+		&_watsapp
+			bottom: 100px
+			left: 55px
+			width: 50px
+			height: 50px
+			transition: 0.4s
+			display: flex
+			justify-content: center
+			align-items: center
+			background: #00e676
+			color: #fff
+		&_telegram
+			bottom: 158px
+			left: 55px
+			width: 50px
+			height: 50px
+			transition: 0.3s
+			display: flex
+			justify-content: center
+			align-items: center
+			background: #34aae0
+			color: #fff
+		&_vk
+			bottom: 218px
+			left: 55px
+			width: 50px
+			height: 50px
+			transition: 0.2s
+			display: flex
+			justify-content: center
+			align-items: center
+			background: #4a76a8
+			color: #fff
+	&_hide
+		&_first
+			transform: translateY(62px)
+		&_second
+			transform: translateY(120px)
+		&_third
+			transform: translateY(180px)
+	&_closed_true
+		background-color: #fff
+			
+.fa-times
+	color: #000
+	&_disp_none
+		display: none!important
+
+.fa-envelope_disp_none
+	display: none!important
+
+@keyframes my-shake
+  0%
+  	transform: translateX(-5px)
+  3%
+  	transform: translateX(5px)
+  6%
+  	transform: translateX(-5px)
+  9%
+  	transform: translateX(5px)
+  16.6%
+  	transform: translateX(0px)
+  100%
+    transform: translateX(0px)

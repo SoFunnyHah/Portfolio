@@ -1,0 +1,70 @@
+.examples
+  background-color: #e6ecf0
+  height: 100%
+  width: 100%
+  padding-top: 40px
+
+.section-title
+  color: #000
+  +yanone
+  margin: 0
+  text-align: center
+  font-size: 4rem
+  font-weight: 400
+  text-transform: uppercase
+
+.section-subtitle
+  color: #000
+  +yanone
+  margin: 0
+  text-align: center
+  font-size: 2.4rem
+  font-weight: 300
+  margin-top: 15px
+  margin-bottom: 40px
+
+.ex-wrapper
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+
+.example
+  height: 240px
+  width: 360px
+  margin-bottom: 45px
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)
+  position: relative
+  &__img
+    height: 100%
+    width: 100%
+  &__overlay
+    position: absolute
+    top: 0
+    left: 0
+    bottom: 0
+    right: 0
+    background-color: #1c1d25
+    opacity: 0
+    transition: .2s
+    display: flex
+    align-items: flex-start
+    justify-content: center
+    cursor: pointer
+    &:hover
+      opacity: .9
+  &__link
+    text-decoration: none
+    color: #fff
+  &__text
+    height: 180px
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    align-items: center
+  &__title
+    font-size: 20px
+    +dosis
+    font-weight: 600
+    text-decoration: none 
+  &__icon
+    

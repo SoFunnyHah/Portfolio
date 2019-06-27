@@ -1,0 +1,43 @@
+.nav 
+	display: flex
+	justify-content: space-around
+	align-items: center
+	height: 86px
+	width: 100%
+	&_pos_ab
+		position: absolute
+		top: 0
+		left: 0
+
+.logo 
+	font-size: 2.5rem
+	&_text_yellow
+		color: #f4cb67
+.menu
+	display: flex
+	justify-content: space-between
+	align-items: center
+	width: 40%
+	list-style: none
+	font-size: 1.6rem
+	&__link 
+		text-decoration: none
+		color: #b0b2c3
+		font-weight: 700
+		padding: 2px
+		&_pos_rel
+			position: relative
+	&__link:hover 
+		color: #fff
+	&__link:before 
+		content: ''
+		bottom: 0
+		right: 0
+		position: absolute
+		width: 0%
+		height: 2px
+		background-color: #f4cb67
+		transition: 0.2s
+	&__link:hover:before 
+		width: 100%
+		left: 0
