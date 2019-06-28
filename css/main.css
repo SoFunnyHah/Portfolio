@@ -572,6 +572,8 @@ canvas {
   text-align: center;
   color: #000; }
   .circ-btn_value_up {
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     display: none;
     z-index: 100;
     width: 60px;
@@ -580,6 +582,8 @@ canvas {
     right: 50px;
     line-height: 80px; }
   .circ-btn_value_contacnts {
+    -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     z-index: 100;
     width: 60px;
     height: 60px;
@@ -592,6 +596,7 @@ canvas {
     -webkit-animation: my-shake 6s infinite;
             animation: my-shake 6s infinite; }
   .circ-btn_social_watsapp {
+    z-index: 90;
     bottom: 100px;
     left: 55px;
     width: 50px;
@@ -614,6 +619,7 @@ canvas {
     background: #00e676;
     color: #fff; }
   .circ-btn_social_telegram {
+    z-index: 91;
     bottom: 158px;
     left: 55px;
     width: 50px;
@@ -636,6 +642,7 @@ canvas {
     background: #34aae0;
     color: #fff; }
   .circ-btn_social_vk {
+    z-index: 92;
     bottom: 218px;
     left: 55px;
     width: 50px;
